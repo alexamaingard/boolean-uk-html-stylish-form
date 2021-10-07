@@ -76,6 +76,7 @@ button{
 
 .container {
     padding: 80px 550px;
+
 }
 
 .main-form {
@@ -85,4 +86,15 @@ button{
     padding: 120px;
     display: grid;
     gap: 30px;
+}
+
+.success-container{
+    background-color: white;
+
+    border-radius: 20px;
+    padding: 120px;
+}
+
+.success-container img{
+    width: 100%;
 }
