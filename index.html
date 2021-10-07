@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Say Hello</title>
+</head>
+<body>
+    <section class="container">
+        <form class="main-form">
+            <h1>Say Hello!</h1>
+            <div class="name">
+                <label>
+                    Your Name
+                    <div class="input">
+                        <input required type="text" placeholder="Enter your name" />
+                    </div>
+                </label>
+            </div>
+            <div class="email">
+                <label>
+                    Email
+                    <div class="input">
+                        <input required type="text" placeholder="Enter your email address" />
+                    </div>
+                </label>
+            </div>
+            <div class="needed-services">
+                <label for="needed-services">Needed Services</label>
+                <div class="select-service">
+                    <select name="services" id="services" form="service-types">
+                    <option value="choose">Choose Services</option>
+                    <option value="service-1">Service 1</option>
+                    <option value="service-2">Service 2</option>
+                    <option value="service-3">Service 3</option>
+                    <option value="service-4">Service 4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="budget">
+                <label for="budget">Budget</label>
+                <div class="select-budget">
+                    <select name="budgets" id="budgets" form="budgets-values">
+                    <option value="choose">Select Budget</option>
+                    <option value="budget-1">Budget 1</option>
+                    <option value="budget-2">Budget 2</option>
+                    <option value="budget-3">Budget 3</option>
+                    <option value="budget-4">Budget 4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="message">
+                <label>
+                    Message
+                    <div class="input">
+                        <textarea
+                        class="message"
+                        type="text"
+                        placeholder="Your message here..."
+                      ></textarea>
+                    </div>
+                </label>
+            </div>
+            <div class="submit-button">
+                <a href="/pages/success.html">
+                    <button type="submit">
+                        Submit &#8594
+                    </button>
+                </a>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

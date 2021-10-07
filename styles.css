@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(30deg, rgba(248,204,252,1) 0%, rgba(212,156,206,1) 11%, rgba(203,102,213,1) 21%, rgba(181,88,201,1) 35%, rgba(133,123,233,1) 59%, rgba(119,195,250,1) 78%, rgba(148,237,255,1) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+label {
+    padding: 20px 0 20px 0;
+    font-size: 1.2rem;
+}
+
+input {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 15px 0 15px 0;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid rgb(219, 219, 219);
+}
+
+input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+input:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
+    background-size: 25px;
+}
+
+textarea{
+    border: none;
+    width: 100%;
+    height: 110px;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 0 0 0;
+}
+
+select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding: 15px 15px 15px 0;
+    font-size: 1.25rem;
+    line-height: 1.1;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+button{
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(247,84,255,1) 0%, rgba(188,104,221,1) 29%, rgba(73,76,255,1) 50%, rgba(71,128,193,1) 65%, rgba(93,255,237,1) 100%);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.container {
+    padding: 80px 550px;
+}
+
+.main-form {
+    background-color: white;
+
+    border-radius: 20px;
+    padding: 120px;
+    display: grid;
+    gap: 30px;
+}
